@@ -1,0 +1,30 @@
+{
+  "name": "str-indexes-of",
+  "description": "Like String#indexOf but return all indexes",
+  "keywords": [
+    "string",
+    "index",
+    "search",
+    "find",
+    "multiple"
+  ],
+  "main": "index.jsnext.js",
+  "moduleType": "es6",
+  "homepage": "https://github.com/shinnn/str-index-of",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shinnn/str-index-of.git"
+  },
+  "authors": [
+    "Shinnosuke Watanabe (https://github.com/shinnn)"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "*.js",
+    "*.json",
+    "*.yml",
+    "coverage",
+    "node_modules"
+  ]
+}
