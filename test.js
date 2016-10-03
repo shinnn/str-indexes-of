@@ -7,13 +7,19 @@ test('strIndexesOf()', t => {
   t.deepEqual(
     strIndexesOf('abcbc', 'b'),
     [1, 3],
-    'should return one indexes of the string.'
+    'should return indexes of the search value.'
   );
 
   t.deepEqual(
     strIndexesOf('abcbc', 'b', 2),
     [3],
     'should support the third `fromIndex` parameter.'
+  );
+
+  t.deepEqual(
+    strIndexesOf('abcbc', 'b', -9999),
+    [1, 3],
+    'should treat negative `fromIndex` as 0.'
   );
 
   t.throws(

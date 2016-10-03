@@ -27,6 +27,10 @@ export default function strIndexesOf(str, searchValue, fromIndex) {
         '.'
       );
     }
+
+    if (fromIndex < 0) {
+      fromIndex = 0;
+    }
   } else {
     fromIndex = 0;
   }
