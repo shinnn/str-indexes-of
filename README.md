@@ -4,7 +4,6 @@
 [![Bower version](https://img.shields.io/bower/v/str-indexes-of.svg)](https://github.com/shinnn/str-indexes-of/releases)
 [![Build Status](https://travis-ci.org/shinnn/str-indexes-of.svg?branch=master)](https://travis-ci.org/shinnn/str-indexes-of)
 [![Coverage Status](https://img.shields.io/coveralls/shinnn/str-indexes-of.svg)](https://coveralls.io/r/shinnn/str-indexes-of)
-[![devDependencies Status](https://david-dm.org/shinnn/str-indexes-of/dev-status.svg)](https://david-dm.org/shinnn/str-indexes-of?type=dev)
 
 Like [`String#indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf), but return all indexes instead of the first one
 
@@ -56,6 +55,6 @@ strIndexesOf('ABC-ABC', 'A', 4); //=> [4]
 
 ## License
 
-Copyright (c) 2016 [Shinnosuke Watanabe](https://github.com/shinnn)
+Copyright (c) 2016 - 2017 [Shinnosuke Watanabe](https://github.com/shinnn)
 
 Licensed under [the MIT License](./LICENSE).

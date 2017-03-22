@@ -8,9 +8,8 @@
     "find",
     "multiple"
   ],
-  "main": "index.jsnext.js",
+  "main": "module.js",
   "moduleType": "es6",
-  "homepage": "https://github.com/shinnn/str-index-of",
   "repository": {
     "type": "git",
     "url": "git://github.com/shinnn/str-index-of.git"
