@@ -2,28 +2,30 @@
  * str-indexes-of | MIT (c) Shinnosuke Watanabe
  * https://github.com/shinnn/str-indexes-of
 */
+import appendType from 'append-type';
+
 export default function strIndexesOf(str, searchValue, fromIndex) {
   if (typeof str !== 'string') {
-    throw new TypeError('Expected a string, but got ' + str + ' (' + typeof str + ').');
+    throw new TypeError('Expected a string, but got ' + appendType(str) + '.');
   }
 
   if (typeof searchValue !== 'string') {
     throw new TypeError(
       'Expected a string representing the value to search for, but got ' +
-      String(searchValue) + ' (' + typeof searchValue + ')' +
+      appendType(searchValue) +
       '.'
     );
   }
 
   if (searchValue.length === 0) {
-    throw new Error('The value to search for must be a non-empty string, but got an empty string.');
+    throw new RangeError('The value to search for must be a non-empty string, but got an empty string.');
   }
 
   if (fromIndex !== undefined) {
     if (typeof fromIndex !== 'number') {
       throw new TypeError(
         'Expected an index where to start the searching forwards in the string, but got ' +
-        (fromIndex === '' ? 'an empty string' : String(fromIndex) + ' (' + typeof fromIndex + ')') +
+        (fromIndex === '' ? '\'\' (empty string)' : appendType(fromIndex)) +
         '.'
       );
     }

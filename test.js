@@ -36,7 +36,7 @@ test('strIndexesOf()', t => {
 
   t.throws(
     () => strIndexesOf('a', ''),
-    /^Error.*The value to search for must be a non-empty string, but got an empty string\./,
+    /^RangeError.*The value to search for must be a non-empty string, but got an empty string\./,
     'should disallow empty search value to avoid infinite loop.'
   );
 
@@ -48,7 +48,7 @@ test('strIndexesOf()', t => {
 
   t.throws(
     () => strIndexesOf('a', 'b', ''),
-    /^TypeError.*Expected an index where to start the searching forwards in the string, but got an empty string\./,
+    /^TypeError.*Expected an index where to start the searching forwards in the string, but got '' \(empty string\)\./,
     'should throw a type error when the third argument is an empty string.'
   );
 
