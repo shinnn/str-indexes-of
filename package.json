@@ -1,6 +1,6 @@
 {
   "name": "str-indexes-of",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Like String#indexOf but return all indexes",
   "repository": "shinnn/str-indexes-of",
   "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
