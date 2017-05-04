@@ -1,7 +1,3 @@
-/*!
- * str-indexes-of | MIT (c) Shinnosuke Watanabe
- * https://github.com/shinnn/str-indexes-of
-*/
 import appendType from 'append-type';
 
 export default function strIndexesOf(str, searchValue, fromIndex) {

@@ -2,10 +2,6 @@
 
 var appendType = require('append-type');
 
-/*!
- * str-indexes-of | MIT (c) Shinnosuke Watanabe
- * https://github.com/shinnn/str-indexes-of
-*/
 function strIndexesOf(str, searchValue, fromIndex) {
   if (typeof str !== 'string') {
     throw new TypeError('Expected a string, but got ' + appendType(str) + '.');

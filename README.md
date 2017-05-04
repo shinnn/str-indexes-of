@@ -55,6 +55,4 @@ strIndexesOf('ABC-ABC', 'A', 4); //=> [4]
 
 ## License
 
-Copyright (c) 2016 - 2017 [Shinnosuke Watanabe](https://github.com/shinnn)
-
-Licensed under [the MIT License](./LICENSE).
+[Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed)
